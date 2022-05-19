@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPT</title>
+</head>
+<body>
+    <h1>PRT</h1>
+    <p>모시꺵이<br>모시깽이<br>
+        <blockquote><strong>모시깽이</strong></blockquote></p>
+    <hr>
+    <ol type="i" start="5">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ol>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <dl>
+        <dt><b>Good</b></dt>
+        <dd>1</dd>
+        <dd>2</dd>
+        <dd>3</dd>
+    </dl>
+    <hr>
+    <table>
+        <caption>JTT</caption>
+        <tr>
+            <th>55</th>
+            <td>33</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <th>go</th>
+            <td>gg</td>
+            <td>gh</td>
+        </tr>
+        <tr>
+            <th>ss</th>
+            <td>sd</td>
+            <td><a href="https://www.youtube.com/" target="_blank">youtube</a></td>
+        </tr>
+    </table>
+    <hr>
+    <h1>회원 가입을 환영합니다</h1>
+    <form action="">
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li>
+                    <label for="uid">아이디</label>
+                    <input type="text" id="uid" required>
+                </li>
+                <li>
+                    <label for="umail">이메일</label>
+                    <input type="email" id="umail" placeholder="예)abc123@gmail.com">
+                </li>
+                <li>
+                    <label for="pwd1">비밀번호</label>
+                    <input type="password" id="pwd1" required placeholder="영어 대,소문자 포함 8자이상">
+                </li>
+                <li>
+                    <label for="pwd2">비밀번호 확인</label>
+                    <input type="password" id="pwd2" required placeholder="비밀번호 재입력">
+                </li>
+                <li>
+                    <label for="path">가입 경로</label>
+                    <select name="" id="path">
+                        <option value="blog">블로그</option>
+                        <option value="search">검색</option>
+                        <option value="sns">SNS</option>
+                        <option value="etc">기타</option>
+                    </select>
+                </li>
+            </ul>
+            <label for="memo">메모</label>
+            <textarea name="memo" id="" cols="40" rows="40" placeholder="띠용띠용"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>이벤트와 새로운 소식</legend>
+            <input type="radio" name="mailing"  id="mailing_y">
+            <label for="mailing_y">메일 수신</label>
+            <input type="radio" name="mailing" id="mailing_n" checked>
+            <label for="mailing_n">메일 수신 안함</label>
+        </fieldset>
+        <div id="buttons">
+            <input type="submit" value="가입하기">
+            <input type="reset" value="취소">
+        </div>
+    </form>
+</body>
+</html>
