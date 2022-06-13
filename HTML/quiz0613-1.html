@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>연습문제 1</title>
+</head>
+<body>
+  <script>
+		// x=y 일때 곱셈, x!=y일때 덧셈
+		x =prompt("첫번째 숫자를 입력하세요");
+		y = prompt("두번째 숫자를 입력하세요");
+		
+		function subMulti(x,y){
+			if(x && y !== null){
+				if(x !== y){
+					console.log(x + y); 
+				}
+				else{
+					console.log(x * y); 
+				}
+			}
+		}
+		subMulti(x,y);
+  </script>
+</body>
+</html>
